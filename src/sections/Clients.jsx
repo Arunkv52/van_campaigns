@@ -12,6 +12,10 @@ import Logo_10 from "../assets/Client-logo/Logo-326-x162_41.png";
 import Logo_11 from "../assets/Client-logo/Logo-326-x162_42.png";
 import Logo_12 from "../assets/Client-logo/Logo-326-x162_46.png";
 import Logo_13 from "../assets/Client-logo/black-thunder.png";
+import Logo_14 from "../assets/Client-logo/velammal.jpg";
+import Logo_15 from "../assets/Client-logo/tormac.png";
+import Logo_16 from "../assets/Client-logo/godrej.png";
+
 
 
 
@@ -30,7 +34,7 @@ const Clients = () => {
             <img
               src={Logo_1}
               alt=""
-              className="grayscale md:w-full md:border-0 border-2 p-5 h-[150px] object-contain hover:grayscale-0 hover:cursor-pointer"
+              className="grayscale md:w-full md:border-0 border-2 p-5 h-[150px] object-contain hover:grayscale-0 hover:cursor-pointer scale-125"
             />
           </div>
           <div className='bg-[#f6f6f6]'>
@@ -126,6 +130,30 @@ const Clients = () => {
               src={Logo_13}
               alt=""
               className="grayscale md:w-full md:border-0 border-2 p-5 h-[150px] object-contain hover:grayscale-0 hover:cursor-pointer"
+            />
+          </div>
+          <div className='bg-[#f6f6f6]'>
+            {" "}
+            <img
+              src={Logo_14}
+              alt=""
+              className="grayscale md:w-full md:border-0 border-2 p-5 h-[150px] object-contain hover:grayscale-0 hover:cursor-pointer"
+            />
+          </div>
+          <div className='bg-[#f6f6f6]'>
+            {" "}
+            <img
+              src={Logo_15}
+              alt=""
+              className="grayscale md:w-full md:border-0 border-2 p-5 h-[150px] object-contain hover:grayscale-0 hover:cursor-pointer"
+            />
+          </div>
+          <div className='bg-[#f6f6f6]'>
+            {" "}
+            <img
+              src={Logo_16}
+              alt=""
+              className="grayscale md:w-full md:border-0 border-2 p-5 h-[150px] object-contain hover:grayscale-0 hover:cursor-pointer scale-150"
             />
           </div>
          

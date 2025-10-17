@@ -154,11 +154,11 @@ export default function DarkVeil({
   return (
     <>
       <canvas ref={ref} className="w-full block bg-item absolute top-0 -z-10" />
-      <div className="bg-txt text-center md:text-8xl text-[38px] font-normal relative md:top-55 top-50 px-5">
+      <div className="bg-txt text-center md:text-8xl text-5xl font-normal relative md:top-55 top-50 px-5">
         <h4 className="text-white ">
           We Move So <span className="text-[#ce1c78]">Your Brand</span> </h4>
         <h4 className="text-white "> Doesn't Stand Still</h4>
-        <div className="btn py-5 flex flex-wrap justify-center gap-5">
+        <div className="btn md:py-5 py-0 flex flex-wrap justify-center gap-5">
           <button className="text-black md:text-[16px] text-[18px] bg-white md:py-4 py-3 md:px-10 px-15 rounded-3xl hover:bg-[#a79cfc] hover:text-white transition-all font-normal">
             <a href="#">Contact us</a>
           </button>

@@ -34,7 +34,7 @@ const Clients = () => {
             <img
               src={Logo_1}
               alt=""
-              className="grayscale md:w-full md:border-0 border-2 p-5 h-[150px] object-contain hover:grayscale-0 hover:cursor-pointer scale-125"
+              className="grayscale md:w-full md:border-0 border-2 p-5 h-[150px] object-contain hover:grayscale-0 hover:cursor-pointer md:scale-125"
             />
           </div>
           <div className='bg-[#f6f6f6]'>
@@ -153,7 +153,7 @@ const Clients = () => {
             <img
               src={Logo_16}
               alt=""
-              className="grayscale md:w-full md:border-0 border-2 p-5 h-[150px] object-contain hover:grayscale-0 hover:cursor-pointer scale-150"
+              className="grayscale md:w-full md:border-0 border-2 p-5 h-[150px] object-contain hover:grayscale-0 hover:cursor-pointer md:scale-150"
             />
           </div>
          
